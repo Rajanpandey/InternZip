@@ -16,6 +16,10 @@
             color: #777;
             line-height: 1.8;
             }
+        
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
 
         /* Create a Parallax Effect */
         .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -68,7 +72,6 @@
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
             <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
             <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-            <a  class="w3-bar-item w3-button" onclick="document.getElementById('id02').style.display='block'; toggleFunction();">SIGN UP</a>
             <a class="w3-bar-item w3-button" onclick="document.getElementById('id01').style.display='block'; toggleFunction();">LOGIN</a>
             <div class="w3-dropdown-hover">
                 <button class="w3-button w3-hover-dark-grey">SIGN UP</button>
@@ -108,11 +111,13 @@
           <label><b>Password</b></label>
           <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" id="password" required>
           <button class="w3-button w3-block w3-black w3-section w3-padding" type="submit" name="submit2">Login</button>
+          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
         </div>
       </form>
 
       <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
         <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+        <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
       </div>
 
     </div>
@@ -132,11 +137,13 @@
           <label><b>Password</b></label>
           <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="password" id="password" required>
           <button class="w3-button w3-block w3-black w3-section w3-padding" type="submit" name="submit">Login</button>
+          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
         </div>
       </form>
 
       <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
         <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+        <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
       </div>
 
     </div>
@@ -193,7 +200,48 @@
         </div>
     </div>
         <br>
-        <br>
+        <div class="w3-content w3-container w3-padding-10 w3-center">
+        <p class="w3-center"><em><h3>Meet the team</h3></em></p>
+        </div>
+<!-----------Images-----------> 
+        
+    <div class="w3-row-padding ">
+
+    <div class="w3-col s3 w3-display-container w3-opacity-min w3-hover-opacity-off">
+      <img src="/Images/Rajan.jpg" style="width:100%; max-height: 190px" >
+      <div class="w3-display-bottomright w3-large w3-container w3-padding-10 w3-black">
+        Rajan
+      </div>
+    </div>
+
+    <div class="w3-col s3 w3-display-container w3-opacity-min w3-hover-opacity-off">
+      <img src="Images/sachin.jpg" style="width:100%;  max-height: 190px">
+      <div class="w3-display-bottomright w3-large w3-container w3-padding-10 w3-black">
+        Sachin
+      </div>
+    </div>
+
+    <div class="w3-col s3 w3-display-container w3-opacity-min w3-hover-opacity-off">
+      <img src="/Images/unnamed.jpg" style="width:100%;  max-height: 190px" >
+      <div class="w3-display-bottomright w3-large w3-container w3-padding-10 w3-black">
+        Tushali
+      </div>
+    </div>
+
+    <div class="w3-col s3 w3-display-container w3-opacity-min w3-hover-opacity-off">
+      <img src="/Images/ujjwal.jpg" style="width:100%; max-height: 190px">
+      <div class="w3-display-bottomright w3-large w3-container w3-padding-10 w3-black ">
+        Ujjwal
+      </div>
+    </div>
+
+</div>
+
+
+        
+<br>
+<br>
+        
         <!----Contact us section---->
     <div class="bgimg-2 w3-display-container w3-opacity-min" id="contact">
     <div class="w3-display-middle">
@@ -207,6 +255,7 @@
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: internshipportal69@gmail.com<br><br>
     </div>
     </div>    
+        </div>
 </body>
     
 <script>
