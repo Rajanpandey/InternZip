@@ -2,8 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Internzip</title>
+        <title>Internzip | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Internzip is an Internship Portal website made by Rajan, Sachin, Tushali and Ujjwal of Symbiosis Pune as a mini project.">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="/CSS/style.css">
@@ -61,8 +62,8 @@
             <div class="w3-dropdown-hover w3-right w3-hide-small ">
                 <button class="w3-button w3-hover-dark-grey">SIGN UP</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                    <a href="/registration/student.html" class="w3-bar-item w3-button w3-hover-dark-grey">Student</a>
-                    <a href="/registration/company.html" class="w3-bar-item w3-button w3-hover-dark-grey">Company</a>
+                    <a href="/registration/internzip-student.html" class="w3-bar-item w3-button w3-hover-dark-grey">Student</a>
+                    <a href="/registration/internzip-company.html" class="w3-bar-item w3-button w3-hover-dark-grey">Company</a>
                 </div>
             </div>
              <a class="w3-bar-item w3-button w3-hover-dark-grey w3-hide-small w3-right" onclick="document.getElementById('id01').style.display='block'">LOGIN</a>
@@ -76,8 +77,8 @@
             <div class="w3-dropdown-hover">
                 <button class="w3-button w3-hover-dark-grey">SIGN UP</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                    <a href="/registration/student.html" class="w3-bar-item w3-button">Student</a>
-                    <a href="/registration/company.html" class="w3-bar-item w3-button">Company</a>
+                    <a href="/registration/internzip-student.html" class="w3-bar-item w3-button">Student</a>
+                    <a href="/registration/internzip-company.html" class="w3-bar-item w3-button">Company</a>
                 </div>
             </div>
         </div>
@@ -98,10 +99,10 @@
         </div>
 
         <div id="student" class="w3-container login">
-            <h1>Student Login</h1>                                  <!------STUDENT FORM POP UP---->
+            <h1>Internzip | Student Login</h1>                                  <!------STUDENT FORM POP UP---->
             <div class="w3-center"><br>
         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
-        <img src="/Images/avatar_student.jpg" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+        <img src="/Images/avatar_student.jpg" alt="Internzip | Student Login" style="width:30%" class="w3-circle w3-margin-top">
       </div>
             <br>
       <form class="w3-container" action="/studconnection.php" method="POST">
@@ -124,10 +125,10 @@
         
 
         <div id="company" class="w3-container login">
-            <h1>Company Login</h1>
+            <h1>Internzip | Company Login</h1>
             <div class="w3-center"><br>                                       <!------COMPANY FORM POP UP---->
         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
-        <img src="/Images/company%20avatar.jpg" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+        <img src="/Images/company%20avatar.jpg" alt="Internzip | Company Login" style="width:30%" class="w3-circle w3-margin-top">
       </div>
             <br>
       <form class="w3-container" action="/compconnection.php" method="POST">
@@ -191,7 +192,7 @@
         <p>Internzip is an internship portal made for the students, by the students. On our platform, you will be able to find various forms of internship opportunities. At the core of the idea is the belief that internships, if managed well, can make a positive difference to the student, to the employer, and to the society at large. Hence, the ad-hoc culture surrounding internships in India should and would change. Internzip aims to be the driver of this change.</p>
     <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-        <img src="/Images/book-computer-design-326424.jpg" class="w3-round w3-image w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+        <img src="/Images/book-computer-design-326424.jpg" class="w3-round w3-image w3-hover-opacity-off" alt="Internzip | About Us" width="500" height="333">
     </div>
 
         <!-- Hide this text on small devices -->
@@ -208,28 +209,28 @@
     <div class="w3-row-padding ">
 
     <div class="w3-col s3 w3-display-container w3-opacity-min w3-hover-opacity-off">
-      <img src="/Images/Rajan.jpg" style="width:100%; max-height: 190px" >
+      <img src="/Images/Rajan.jpg" style="width:100%; max-height: 190px" alt="Internzip | Rajan Pandey">
       <div class="w3-display-bottomright w3-large w3-container w3-padding-10 w3-black">
         Rajan
       </div>
     </div>
 
     <div class="w3-col s3 w3-display-container w3-opacity-min w3-hover-opacity-off">
-      <img src="Images/sachin.jpg" style="width:100%;  max-height: 190px">
+      <img src="Images/sachin.jpg" style="width:100%;  max-height: 190px" alt="Internzip | Sachin Pothukuchi">
       <div class="w3-display-bottomright w3-large w3-container w3-padding-10 w3-black">
         Sachin
       </div>
     </div>
 
     <div class="w3-col s3 w3-display-container w3-opacity-min w3-hover-opacity-off">
-      <img src="/Images/unnamed.jpg" style="width:100%;  max-height: 190px" >
+      <img src="/Images/unnamed.jpg" style="width:100%;  max-height: 190px" alt="Internzip | Tushali Chetty">
       <div class="w3-display-bottomright w3-large w3-container w3-padding-10 w3-black">
         Tushali
       </div>
     </div>
 
     <div class="w3-col s3 w3-display-container w3-opacity-min w3-hover-opacity-off">
-      <img src="/Images/ujjwal.jpg" style="width:100%; max-height: 190px">
+      <img src="/Images/ujjwal.jpg" style="width:100%; max-height: 190px" alt="Internzip | Ujjwal Jain">
       <div class="w3-display-bottomright w3-large w3-container w3-padding-10 w3-black ">
         Ujjwal
       </div>
